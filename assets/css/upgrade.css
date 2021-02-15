@@ -100,6 +100,10 @@ header.masthead {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.skills {
+  background: #efeff3f1;
+
+}
 
 /*--------------------------------------------------------------
 # Skills
@@ -111,8 +115,8 @@ header.masthead {
   }
 
 .skills .box {
-    background: #f2f8f2f1;
-    border: 1px solid  #c1eec3;
+    
+    border: 1px solid  #64646456;
     height: 21rem;
    
 }
@@ -147,7 +151,37 @@ header.masthead {
 
 
 
+ /*=== Seção Parallax ===*/
+.bg-parallax {
+	background: url(../img/upgrade/teste.png) fixed;
+	position: relative;
+}
 
+.fatos {
+    text-align: center;
+    color: #fff;
+}
+
+.fatos .icon i {
+    font-size: 50px;
+    color: #fff;    
+}
+
+.fatos h3 {
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: 700;
+    letter-spacing:  1px;
+}
+
+.fatos h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
 
 
 
