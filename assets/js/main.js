@@ -182,6 +182,13 @@ $(".portfolio-details-carousel").owlCarousel({
   items: 1
 });
 
+// Portfolio details carousel 2 no next
+$(".portfolio-details-carousel2").owlCarousel({
+  autoplay: false,
+  dots: true,
+  loop: true,
+  items: 1
+});
 
   // Init AOS
   function aos_init() {
